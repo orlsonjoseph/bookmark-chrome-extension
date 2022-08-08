@@ -1,0 +1,25 @@
+:root {
+  font-family: sans-serif;
+}
+
+div.nodraft-theme-dark {
+  --color-canvas: #121212;
+  --color-text-primary: #f2f2f2;
+
+  --color-action-primary: #008078;
+  --color-action-primary-text: #FFFFFF;
+  --color-action-primary-hover: #004D48;
+  
+  --color-action-secondary: #F2F2F2;
+  --color-action-secondary-text: #F2F2F2;
+  --color-action-secondary-hover: #1A1A1A;
+
+  --color-inline-button: #E8F7F6;
+
+  --color-header-background: #404040;
+}
+
+div.nodraft-theme-light {
+  --color-canvas: #C2C2C2;
+  --primary-text: #121212;
+}

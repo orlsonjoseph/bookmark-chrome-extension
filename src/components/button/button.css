@@ -1,0 +1,59 @@
+button.nodraft-button {
+  display: inline-block;
+
+  position: relative;
+  font-size: 16px;
+
+  height: unset;
+  line-height: 110%;
+
+  padding: 8px 12px;
+
+  cursor: pointer;
+  
+  border: none;
+  border-radius: 0;
+  text-transform: none;
+  text-decoration: none;
+
+  transition: all 0.15s ease-out;
+}
+button.nodraft-button::before { display: none }
+
+button.nodraft-button:hover { text-decoration: none }
+button.nodraft-button:active { display: none }
+button.nodraft-button:focus { outline: none }
+
+button.nodraft-button-inline {
+  display: inline;
+
+  padding: 0;
+  background: none;
+
+  font-weight: 500;
+
+  color: var(--color-inline-button);
+}
+
+button.nodraft-button-disabled {
+  opacity: 0.5;
+  cursor: default;
+  pointer-events: none;
+}
+
+button.nodraft-button-primary {
+  background-color: var(--color-action-primary);
+  border: 2px solid var(--color-action-primary);
+  color: var(--color-action-primary-text);
+}
+
+button.nodraft-button-secondary {
+  background: none;
+  border: 2px solid var(--color-action-secondary);
+  color: var(--color-action-secondary-text);
+}
+
+button.nodraft-button-secondary:hover {
+  background-color: var(--color-action-secondary-hover);
+  color: var(--color-action-secondary-hover-text);
+}

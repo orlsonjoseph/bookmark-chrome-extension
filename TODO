@@ -1,0 +1,3 @@
+- Change manifest.json externally_connectable
+- Change constants.js BASE_URL
+- Remove pages/background/index log line
